@@ -1,0 +1,20 @@
+{
+  "name": "web_automation_cypress",
+  "version": "1.0.0",
+  "description": "Website Automation testing using Cypress framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "test:headless": "cypress run",
+    "test:headed": "cypress run --browser chrome --headed"
+  },
+  "keywords": [
+    "Cypress"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.7.0",
+    "faker": "^5.5.3"
+  }
+}
