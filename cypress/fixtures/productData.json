@@ -1,0 +1,12 @@
+{
+    "type": {
+        "Laptop": "Laptops",
+        "Phone": "Phones",
+        "Monitor": "Monitors"
+    },
+    "name": {
+        "Samsung_S6": "Samsung galaxy s6",
+        "MacBook_Pro": "MacBook Pro",
+        "ASUS_Full_HD": "ASUS Full HD"
+    }
+}
