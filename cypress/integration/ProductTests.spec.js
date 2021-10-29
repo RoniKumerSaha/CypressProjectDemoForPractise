@@ -15,4 +15,11 @@ describe("Login Tests", () => {
      homePage.selectProduct(product.type.Laptop, product.name.MacBook_Pro);
      productPage.verifyProduct(product.name.MacBook_Pro);
     });
+
+    product.items.forEach(item => {
+        it.only(`User can view product: ${item.type}  ${item.name}`, () => {
+            homePage.selectProduct(item.type, item.name);
+            productPage.verifyProduct(item.name);
+           });
+    });
 });

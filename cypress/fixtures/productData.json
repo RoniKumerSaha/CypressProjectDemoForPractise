@@ -8,5 +8,10 @@
         "Samsung_S6": "Samsung galaxy s6",
         "MacBook_Pro": "MacBook Pro",
         "ASUS_Full_HD": "ASUS Full HD"
-    }
+    },
+    "items":[
+        {"type": "Phones", "name": "Samsung galaxy s6"},
+        {"type": "Laptop", "name": "MacBook Pro"},
+        {"type": "Monitors", "name": "ASUS Full HD"}
+    ]
 }
